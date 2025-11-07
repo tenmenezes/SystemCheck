@@ -1,0 +1,3 @@
+[build]
+  command = "" # deixa em branco ou coloca "echo 'static site'" pra não buildar
+  publish = "out"
