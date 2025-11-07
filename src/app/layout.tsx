@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pet Dev",
+  title: "SystemCheck",
   description: "Feito por Yago Menezes",
 };
 

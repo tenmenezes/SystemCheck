@@ -73,9 +73,9 @@ const Footer = () => {
 
           <div>
             <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
-            <p>Email: teste@email.com</p>
+            <p>Email: suporte@systemcheck.com.br</p>
             <p>Telefone: +55 (21) 99991-5421</p>
-            <p>Rua X, Centro, Campo Grande | RJ</p>
+            <p>Av. Cesário de Melo - Campo Grande | RJ</p>
           </div>
 
           <div>
