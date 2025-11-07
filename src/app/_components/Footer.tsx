@@ -72,9 +72,9 @@ const Footer = () => {
             </a>
           </div>
 
-          <div>
+          <div className="flex flex-col ">
             <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
-            <p className="text-gray-300">Email: suporte@systemcheck.com.br</p>
+            <p className="text-gray-300">Email: info@gmail.com</p>
             <p className="text-gray-300">Telefone: +55 (21) 99991-5421</p>
             <p className="text-gray-300">
               Av. Cesário de Melo – Campo Grande | RJ
