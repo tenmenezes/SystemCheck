@@ -1,6 +1,6 @@
 import Image from "next/image";
-import about1Img from "@/about-1.png";
-import about2Img from "@/about-2.png";
+import about1Img from "@/about1.jpg";
+import about2Img from "@/about2.jpg";
 import { Check, MapPin } from "lucide-react";
 import { WhatsappLogoIcon } from "@phosphor-icons/react/dist/ssr";
 
@@ -17,7 +17,7 @@ const About = () => {
             <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
               <Image
                 src={about1Img}
-                alt="cachorro"
+                alt="placa mãe"
                 fill
                 quality={100}
                 priority
@@ -28,7 +28,7 @@ const About = () => {
             <div className="absolute w-40 h-40 right-4 -bottom-8 border-4 border-white overflow-hidden rounded-3xl ">
               <Image
                 src={about2Img}
-                alt="gato"
+                alt="segurança"
                 fill
                 quality={100}
                 priority
@@ -37,37 +37,48 @@ const About = () => {
             </div>
           </div>
 
-          <div
-            className="space-y-6 mt-10"
-            data-aos="fade-up-left"
-            data-aos-delay="300"
-          >
-            <h2 className="text-4xl font-bold ">SOBRE</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus quas in, reprehenderit dolores placeat quam nisi vel
-              porro, dolorem distinctio assumenda ex ipsa dicta eveniet.
+          <div className="space-y-6 mt-10">
+            <h2
+              className="text-4xl font-bold"
+              data-aos="fade-up-left"
+              data-aos-delay="300"
+            >
+              SOBRE NÓS
+            </h2>
+            <p data-aos="fade-up-left" data-aos-delay="300">
+              Somos especialistas em suporte técnico e manutenção de
+              computadores, notebooks e redes. Atuamos com foco em oferecer
+              soluções rápidas, seguras e eficazes para empresas e usuários
+              domésticos, garantindo o máximo desempenho dos seus sistemas.
             </p>
 
-            <ul className="space-y-4">
+            <ul
+              className="space-y-4"
+              data-aos="fade-up-left"
+              data-aos-delay="300"
+            >
               <li className="flex items-center gap-2 ">
                 <Check className="text-red-500" />
-                Aberto desde 2006.
+                Atendendo clientes desde 2006.
               </li>
               <li className="flex items-center gap-2 ">
                 <Check className="text-red-500" />
-                Equipe com mais de 10 veterinários.
+                Equipe técnica qualificada e em constante atualização.
               </li>
               <li className="flex items-center gap-2 ">
                 <Check className="text-red-500" />
-                Qualidade é nossa prioridade.
+                Suporte remoto e presencial em todo o Rio de Janeiro.
               </li>
               <li className="flex items-center gap-2 ">
-                <Check className="text-red-500" />A saúde do seu pet é o que
-                mais importa.
+                <Check className="text-red-500" />
+                Compromisso com qualidade, agilidade e segurança.
               </li>
             </ul>
-            <div className="flex gap-2">
+            <div
+              className="flex gap-2"
+              data-aos="fade-up-left"
+              data-aos-delay="300"
+            >
               <a
                 target="_blanck"
                 href="https://wa.me/21999922459?text=Olá vim pelo site e gostaria de mais informações."

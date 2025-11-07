@@ -1,20 +1,20 @@
 import { WhatsappLogoIcon } from "@phosphor-icons/react/dist/ssr";
-import dogImg from "@/hero-dog.webp";
-import catImg from "@/cat-hero.png";
+import personImg from "@/pessoa-hero.png";
+import catImg from "@/gato-hero.png";
 import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="bg-[#E84C3D] text-white relative overflow-hidden">
+    <section className="bg-[#3d40e8] text-white relative overflow-hidden">
       <div>
         <Image
-          src={dogImg}
-          alt="Foto do dog"
+          src={personImg}
+          alt="Foto de uma pessoa mexendo em um notebook"
           className="object-cover opacity-60 lg:hidden"
           fill
           priority
           quality={100}
-          sizes="100vw"
+          sizes="98vw"
         />
         <div className="absolute inset-0 bg-black opacity-40 md:hidden"></div>
       </div>
@@ -25,11 +25,13 @@ const Hero = () => {
               className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10"
               data-aos="fade-down"
             >
-              Seu pet merece cuidado, carinho e atenção especial.
+              Diagnóstico, manutenção e performance, tudo para seu PC funcionar
+              como novo.
             </h1>
             <p className="lg:text-lg" data-aos="fade-right">
-              Oferecemos os melhores serviços para garantir o bem-estar e a
-              felicidade do seu amigo de 4 patas.
+              Cuidamos do seu equipamento com atenção e profissionalismo.
+              Fazemos formatação, upgrades, limpeza, otimização e muito mais —
+              tudo para garantir o máximo desempenho e segurança do seu PC.
             </p>
             <a
               data-aos="fade-up"
@@ -45,7 +47,7 @@ const Hero = () => {
             <div className="mt-8" data-aos="fade-up" data-aos-delay="500">
               <p className="text-sm mb-4">
                 <b className="bg-black text-white px-2 py-1 rounded-md">5%</b>{" "}
-                de desconto na primeira compra.
+                de desconto na primeira manutenção.
               </p>
               <div className="flex mt-4 ">
                 <div className="w-32 hidden lg:block">
@@ -68,9 +70,9 @@ const Hero = () => {
             data-aos-delay="300"
           >
             <Image
-              src={dogImg}
+              src={personImg}
               alt="Foto do dog"
-              className="object-contain"
+              className="object-cover"
               fill
               priority
               quality={100}

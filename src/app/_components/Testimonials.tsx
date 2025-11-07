@@ -11,30 +11,31 @@ import {
   Clock,
 } from "lucide-react";
 import tutor1 from "@/tutor1.png";
-import tutor2 from "@/tutor2.jpeg";
+import tutor2 from "@/tutor2.jpg";
+import tutor3 from "@/tutor3.jpg";
 import Image from "next/image";
 
 const testimonials = [
   {
     content:
-      "Desde que comecei a levar a Luna para banho e tosa aqui, ela nunca esteve tão feliz! O atendimento é impecável, os profissionais são super cuidadosos e sempre deixam minha peluda linda e cheirosa. Recomendo de olhos fechados!",
-    author: "Mariana Souza",
-    role: "Tutora da Luna (Golden Retriever)",
+      "Meu computador estava travando e reiniciando o tempo todo, achei que teria que comprar outro. O suporte foi super rápido, identificaram o problema e resolveram no mesmo dia! Agora está rodando como novo.",
+    author: "Fernanda Costa",
+    role: "Empresária – Suporte Técnico Remoto",
     image: tutor2,
   },
   {
     content:
-      "O serviço de hotel para pets foi uma experiência incrível! Precisei viajar e fiquei tranquilo sabendo que o Thor estava sendo bem cuidado. Recebi fotos e atualizações diárias, e ele voltou para casa super feliz! Sem dúvida, o melhor petshop da região.",
-    author: "Rafael",
-    role: "Tutor do Thor (Bulldog Francês)",
+      "Precisei de ajuda urgente com o sistema da minha empresa e o atendimento remoto foi excelente. O técnico acessou meu PC em minutos e resolveu tudo sem precisar sair do escritório. Atendimento profissional e ágil!",
+    author: "Lucas Andrade",
+    role: "Cliente – Manutenção de Computadores",
     image: tutor1,
   },
   {
     content:
-      "Meus gatos nunca gostaram de sair de casa, mas o atendimento nesse petshop fez toda a diferença. A equipe é muito paciente e cuidadosa, e o serviço de banho especializado para felinos foi maravilhoso! Agora sei onde confiar o cuidado deles.",
-    author: "Camila fernandes",
-    role: "Tutora da Mel e do Max",
-    image: tutor2,
+      "Perdi vários arquivos importantes de um projeto e achei que não teria mais volta. A equipe conseguiu recuperar tudo e ainda configurou um backup automático para evitar novos problemas. Serviço impecável!",
+    author: "João Pereira",
+    role: "Freelancer – Recuperação de Dados",
+    image: tutor3,
   },
 ];
 
@@ -52,7 +53,7 @@ const Testimonials = () => {
   }
 
   return (
-    <section className="bg-[#FFD449] py-16">
+    <section className="bg-[#E84C3D] py-16">
       <div className="container mx-auto px-4 ">
         <h2
           className="text-4xl font-bold mb-12 text-center"

@@ -10,7 +10,7 @@ const AosInit = () => {
     useEffect(() => {
         Aos.init({
             duration: 1000,
-            once: false,
+            once: true,
         })
      }, [] )
 

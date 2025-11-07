@@ -4,53 +4,66 @@ import useEmblaCarousel from "embla-carousel-react";
 import {
   ChevronLeft,
   ChevronRight,
-  Scissors,
-  Syringe,
-  CarTaxiFront,
-  Hotel,
+  Laptop,
+  Network,
+  HardDrive,
+  ShieldCheck,
   Clock,
+  Cpu,
 } from "lucide-react";
 
 import { WhatsappLogoIcon } from "@phosphor-icons/react";
 
 const services = [
   {
-    tittle: "Banho & Tosa",
+    tittle: "Manutenção de Computadores",
     description:
-      "Inclui banho com produtos específicos para o tipo de pelagem e pele do animal, corte de unhas, limpeza das orelhas e tosa personalizada (higiênica ou estilizada)",
-    duration: "1H",
-    price: "$50",
-    icon: <Scissors />,
+      "Diagnóstico completo e reparo de computadores e notebooks. Inclui limpeza interna, troca de peças, otimização de desempenho e formatação com backup seguro.",
+    duration: "1h a 2h",
+    price: "Sob orçamento",
+    icon: <Laptop />,
     linkText:
-      "Olá, vi no site sobre o Banho e tosa e gostaria de mais informações.",
+      "Olá! Vi no site sobre manutenção de computadores e gostaria de mais informações.",
   },
   {
-    tittle: "Consulta Veterinária",
+    tittle: "Suporte Técnico Remoto",
     description:
-      "Oferece atendimento clínico básico ou especializado para cuidar da saúde do animal. Inclui diagnóstico de doenças, aplicação de vacinas obrigatórias, entre outros.",
-    duration: "1H",
-    price: "$45",
-    icon: <Syringe />,
+      "Atendimento online rápido para resolver problemas de sistema, instalação de softwares, configuração de impressoras e remoção de vírus sem precisar sair de casa.",
+    duration: "30min a 1h",
+    price: "A partir de R$60",
+    icon: <Cpu />,
     linkText:
-      "Olá, vi no site sobre a Consulta veterinária e gostaria de mais informações.",
+      "Olá! Vi no site sobre o suporte técnico remoto e gostaria de saber mais.",
   },
   {
-    tittle: "Táxi Pet",
+    tittle: "Configuração de Redes",
     description:
-      "Serviço de transporte para levar e buscar os pets no petshop, clpinicas veterinárias ou outros locais. ideal para tutores que não tem tempo ou transporte adequado para locomover os animais.",
-    duration: "2H",
-    price: "$80",
-    icon: <CarTaxiFront />,
-    linkText: "Olá, vi no site sobre o taxi pet e gostaria de saber mais.",
+      "Instalação e configuração de roteadores, Wi-Fi, cabeamento e compartilhamento de arquivos para residências e empresas. Garantimos estabilidade e segurança da conexão.",
+    duration: "2h a 4h",
+    price: "Sob orçamento",
+    icon: <Network />,
+    linkText:
+      "Olá! Vi no site sobre configuração de redes e gostaria de solicitar um orçamento.",
   },
   {
-    tittle: "Pets Hotel",
+    tittle: "Backup e Recuperação de Dados",
     description:
-      "Serviço de hospedagem para animais de estimação, ideal para quando os tutores precisam viajar ou se ausentar por alguns dias. Os pets ficam acomodados em espaços seguros e confortáveis.",
-    duration: "1d à 7d",
-    price: "$120 à $840",
-    icon: <Hotel />,
-    linkText: "Olá, vi no site sobre o Pets hotel e gostaria de saber mais.",
+      "Recuperamos arquivos apagados e criamos sistemas de backup automáticos para proteger seus dados contra falhas, formatações ou ataques cibernéticos.",
+    duration: "Variável",
+    price: "Sob orçamento",
+    icon: <HardDrive />,
+    linkText:
+      "Olá! Vi no site sobre backup e recuperação de dados e gostaria de saber mais.",
+  },
+  {
+    tittle: "Segurança Digital",
+    description:
+      "Proteção completa contra vírus, malwares e invasões. Implementamos antivírus profissionais e políticas de segurança para garantir a integridade dos seus sistemas.",
+    duration: "1h a 3h",
+    price: "Sob orçamento",
+    icon: <ShieldCheck />,
+    linkText:
+      "Olá! Vi no site sobre segurança digital e quero mais informações.",
   },
 ];
 
