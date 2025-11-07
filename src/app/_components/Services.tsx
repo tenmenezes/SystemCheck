@@ -139,13 +139,13 @@ const Services = () => {
 
           <button
             onClick={scrollPrev}
-            className="cursor-pointer bg-white hover:bg-gray-200 flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute left-4 -translate-y-1/2 -translate-x-1/2 top-1/2 z-10"
+            className="cursor-pointer bg-white hover:bg-gray-200 flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute left-9 -translate-y-1/2 -translate-x-1/2 top-1/2 z-10"
           >
             <ChevronLeft className="w-6 h-6 text-gray-600" />
           </button>
           <button
             onClick={scrollNext}
-            className="cursor-pointer bg-white hover:bg-gray-200 flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute -right-5 -translate-y-1/2 -translate-x-1/2 top-1/2 z-10"
+            className="cursor-pointer bg-white hover:bg-gray-200 flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute -right-1 -translate-y-1/2 -translate-x-1/2 top-1/2 z-10"
           >
             <ChevronRight className="w-6 h-6 text-gray-600" />
           </button>
