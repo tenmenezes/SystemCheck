@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 SystemCheck
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-16+-black?logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)
+![AOS](https://img.shields.io/badge/AOS.js-Animation-orange?logo=javascript&logoColor=white)
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧩 Sobre o projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**SystemCheck** é uma **landing page de simulação** desenvolvida com foco em design moderno e animações leves.  
+O projeto foi criado utilizando **Next.js 16+**, **TypeScript**, **TailwindCSS** e **AOS.js** para animações ao rolar a página.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O objetivo inicial é demonstrar a estrutura de uma **página promocional e interativa**, mas futuramente o projeto será **reformulado** para representar uma **landing page de simulação de uma loja de suporte técnico**, com componentes dinâmicos e integração visual aprimorada.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Tecnologias utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+- ⚡ **Next.js 16+**
+- 🧱 **TypeScript**
+- 🎨 **TailwindCSS**
+- 🌀 **AOS (Animate On Scroll)**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Status do projeto
 
-## Deploy on Vercel
+> 🧩 **Versão atual:** Landing page de simulação  
+> 🔧 **Em desenvolvimento:** Transição para layout de loja de suporte técnico
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💡 Objetivo futuro
+
+A próxima versão do **SystemCheck** contará com:
+- Layout responsivo e adaptado para uma loja de serviços técnicos  
+- Simulações de atendimento e orçamento  
+- Interatividade e micro animações aprimoradas com AOS e Framer Motion  
+- Organização de componentes com arquitetura escalável em Next.js  
+
+---
+
+## 🖥️ Prévia
+
+> *Ainda não disponível.*
+
+---
+
+## 📜 Licença
+
+Este projeto é de uso livre para fins educacionais e portfólio.  
+© 2025 — Desenvolvido por **[Yago Menezes (tenmenezes)](https://github.com/tenmenezes)** 🧠
