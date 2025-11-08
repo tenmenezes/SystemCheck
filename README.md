@@ -16,7 +16,7 @@ O objetivo inicial é demonstrar a estrutura de uma **página promocional e inte
 
 ---
 
-## ✨ Tecnologias utilizadas
+## ✨ Tecnologias utilizadas    
 
 - ⚡ **Next.js 16+**
 - 🧱 **TypeScript**
