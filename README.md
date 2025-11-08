@@ -9,7 +9,7 @@
 
 ## 🧩 Sobre o projeto
 
-**SystemCheck** é uma landing page moderna e interativa desenvolvida com **Next.js 16+**, **TypeScript** e **TailwindCSS**, utilizando **Framer Motion** e **AOS.js** para criar animações fluidas e responsivas.  
+**SystemCheck** é uma landing page moderna e interativa desenvolvida com **Next.js 16+**, **TypeScript** e **TailwindCSS**, utilizando **AOS.js** para criar animações fluidas e responsivas.  
 
 O site simula uma página institucional de uma empresa de **tecnologia e diagnóstico digital**, destacando serviços, diferenciais e depoimentos de forma visual e envolvente.  
 
