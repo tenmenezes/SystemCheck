@@ -28,9 +28,8 @@ O foco está na **performance**, **organização de componentes** e **experiênc
 - ⚡ **Next.js 16+** — Framework React moderno para SSR e SSG  
 - 🧱 **TypeScript** — Tipagem estática e segurança no desenvolvimento  
 - 🎨 **TailwindCSS** — Estilização responsiva e utilitária  
-- 🌀 **AOS.js** — Animações sutis ao rolar a página  
-- 💫 **Framer Motion** — Transições suaves e animações de entrada  
-
+- 🌀 **AOS.js** — Animações sutis ao rolar a página
+  
 ---
 
 ## 🎨 Design e Experiência do Usuário (UX/UI)
