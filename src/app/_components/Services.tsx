@@ -124,7 +124,7 @@ const Services = () => {
 
                       <a
                         target="_blanck"
-                        href={`https://wa.me/21999922459?text=${item.linkText}`}
+                        href={`https://wa.me/+5521999922459?text=${item.linkText}`}
                         className="flex items-center justify-center gap-2 hover:bg-red-500 px-4 py-1 rounded-md duration-300"
                       >
                         <WhatsappLogoIcon className="w-5 h-5" />

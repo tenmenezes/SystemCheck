@@ -8,7 +8,7 @@ import Image from "next/image";
 import {
   GithubLogoIcon,
   InstagramLogoIcon,
-  FacebookLogoIcon,
+  LinkedinLogoIcon,
 } from "@phosphor-icons/react/dist/ssr";
 
 const brands = [
@@ -65,7 +65,7 @@ const Footer = () => {
             </p>
             <a
               target="_blanck"
-              href="https://wa.me/21999922459?text=Olá vim pelo site e gostaria de mais informações."
+              href="https://wa.me/+5521999922459?text=Olá vim pelo site e gostaria de mais informações."
               className="bg-green-500 px-4 py-2 rounded-md"
             >
               WhatsApp
@@ -88,23 +88,23 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/dev_tenmenezes"
                 target="_blank"
-                className="hover:text-green-400 transition"
+                className="hover:text-purple-400 transition"
               >
                 <InstagramLogoIcon className="w-8 h-8" />
               </a>
               <a
-                href="https://www.facebook.com"
+                href="https://www.linkedin.com/in/ten-menezes"
                 target="_blank"
-                className="hover:text-green-400 transition"
+                className="hover:text-purple-400 transition"
               >
-                <FacebookLogoIcon className="w-8 h-8" />
+                <LinkedinLogoIcon className="w-8 h-8" />
               </a>
               <a
                 href="https://github.com/tenmenezes"
                 target="_blank"
-                className="hover:text-green-400 transition"
+                className="hover:text-purple-400 transition"
               >
                 <GithubLogoIcon className="w-8 h-8" />
               </a>
